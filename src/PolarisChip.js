@@ -21,7 +21,7 @@ export class PolarisChip extends LitElement {
         background-color: #e4e5e7;
         border: 2px solid #e4e5e7;
         border-radius: 2px;
-        color: #003;
+        color: #005fa9;
         cursor: pointer;
         text-decoration: underline;
       }
@@ -29,11 +29,6 @@ export class PolarisChip extends LitElement {
       .link {
         font-weight: bold;
         text-decoration: none;
-        padding: 8px 4px;
-        color: #444;
-      }
-
-      span {
         padding: 8px 4px;
         border: 2px solid #444;
         color: #444;
@@ -45,7 +40,7 @@ export class PolarisChip extends LitElement {
   constructor() {
     super();
     this.name = 'Football';
-    this.link = 'https://www.psu.edu/';
+    this.link = 'https://www.psu.edu/news/research/';
   }
 
   render() {
